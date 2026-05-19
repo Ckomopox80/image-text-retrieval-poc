@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+
+# Temporary / cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data and project folders
+dsplus_integrated_project_4/
+
+# Data and model artifacts
+train_images/
+test_images/
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# Hugging Face / transformers cache
+.huggingface/
+cache/
